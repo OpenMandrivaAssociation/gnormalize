@@ -1,4 +1,4 @@
-%define version	0.52
+%define version	0.53
 %define release	%mkrel 1
 
 Name: 		gnormalize
@@ -15,13 +15,13 @@ Requires:	normalize, cdparanoia
 Requires:	vorbis-tools
 
 %description
-gnormalize is a front end to normalize, a ripper, an encoder and 
+gnormalize is a front end to normalize, a ripper, an encoder and
 an audio converter. It uses gtk2-perl.
 
-gnormalize decodes the MP3/MPC/OGG/APE/FLAC file to WAV, 
-then normalizes the WAV to a targeted volume level and re-encodes it. 
-gnormalize can also rip, encode, convert audio format between MP3, 
-MPC, OGG, APE and FLAC, change the encoding and ID3 tag properties of 
+gnormalize decodes the MP3/MPC/OGG/APE/FLAC file to WAV,
+then normalizes the WAV to a targeted volume level and re-encodes it.
+gnormalize can also rip, encode, convert audio format between MP3,
+MPC, OGG, APE and FLAC, change the encoding and ID3 tag properties of
 final normalized files.
 
 
@@ -59,7 +59,7 @@ cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-%{name}.desktop << EOF
 [Desktop Entry]
 Name=Gnormalize
 Comment=A ripper, an encoder and an audio converter
-Exec=%{_bindir}/%{name} 
+Exec=%{_bindir}/%{name}
 Icon=%{name}
 Terminal=false
 Type=Application
