@@ -9,6 +9,7 @@ Group:		Sound
 License:	GPL
 URL:		http://gnormalize.sourceforge.net
 Source0:	%{name}-%{version}.tar.bz2
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:	noarch
 Requires:	normalize, cdparanoia
 Requires:	vorbis-tools
