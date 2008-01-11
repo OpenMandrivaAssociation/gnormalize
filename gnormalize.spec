@@ -43,16 +43,6 @@ mkdir -p %{buildroot}%{_datadir}/%name/animations
 
 
 # menu entrie
-mkdir -p  $RPM_BUILD_ROOT%{_menudir}
-cat << EOF > $RPM_BUILD_ROOT%{_menudir}/%{name}
-?package(%name):command="/usr/bin/%name" \
-icon="%name.png" needs="X11" \
-section="Multimedia/Sound" startup_notify="false" \
-title="Gnormalize" longtitle="%summary" \
-mimetypes="" accept_url="false" \
-multiple_files="false" \
-xdg="true"
-EOF
 
 mkdir -p $RPM_BUILD_ROOT%{_datadir}/applications
 cat > $RPM_BUILD_ROOT%{_datadir}/applications/mandriva-%{name}.desktop << EOF
@@ -87,7 +77,6 @@ rm -rf $RPM_BUILD_ROOT
 %doc README
 %{_bindir}/*
 %{_datadir}/%name
-%{_menudir}/%{name}
 %{_datadir}/applications/mandriva-%{name}.desktop
 %{_miconsdir}/%name.png
 %{_iconsdir}/%name.png
