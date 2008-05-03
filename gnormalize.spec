@@ -1,4 +1,4 @@
-%define version	0.53
+%define version	0.60
 %define release	%mkrel 1
 
 Name: 		gnormalize
@@ -6,9 +6,9 @@ Summary:	A ripper, an encoder and an audio converter
 Version:	%{version}
 Release:	%{release}
 Group:		Sound
-License:	GPL
+License:	GPLv2+
 URL:		http://gnormalize.sourceforge.net
-Source0:	%{name}-%{version}.tar.bz2
+Source0:	http://kent.dl.sourceforge.net/sourceforge/gnormalize/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:	noarch
 Requires:	normalize, cdparanoia
