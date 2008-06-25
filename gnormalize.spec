@@ -1,4 +1,4 @@
-%define version	0.61
+%define version	0.62
 %define release	%mkrel 1
 
 Name: 		gnormalize
