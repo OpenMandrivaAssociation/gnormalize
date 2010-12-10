@@ -1,5 +1,5 @@
 %define version	0.63
-%define release	%mkrel 2
+%define release	%mkrel 3
 
 Name: 		gnormalize
 Summary:	A ripper, an encoder and an audio converter
