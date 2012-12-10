@@ -87,3 +87,50 @@ rm -rf $RPM_BUILD_ROOT
 %{_liconsdir}/%name.png
 
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.63-3mdv2011.0
++ Revision: 619183
+- the mass rebuild of 2010.0 packages
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.63-2mdv2010.0
++ Revision: 429264
+- rebuild
+
+* Sun Jul 13 2008 Funda Wang <fwang@mandriva.org> 0.63-1mdv2009.0
++ Revision: 234334
+- update to new version 0.63
+
+* Wed Jun 25 2008 Funda Wang <fwang@mandriva.org> 0.62-1mdv2009.0
++ Revision: 228840
+- update to new version 0.62
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Wed May 28 2008 Funda Wang <fwang@mandriva.org> 0.61-1mdv2009.0
++ Revision: 212513
+- New version 0.61
+
+* Sat May 03 2008 Funda Wang <fwang@mandriva.org> 0.60-1mdv2009.0
++ Revision: 200619
+- New version 0.60
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - drop old menu
+    - kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+* Wed Dec 05 2007 Jérôme Soyer <saispo@mandriva.org> 0.53-1mdv2008.1
++ Revision: 115738
+- New release 0.53
+
+
+* Tue Dec 05 2006 Lenny Cartier <lenny@mandriva.com> 0.52-1mdv2007.0
++ Revision: 90779
+- Update to 0.52
+- Import gnormalize
+
