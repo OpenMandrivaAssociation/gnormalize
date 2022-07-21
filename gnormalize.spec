@@ -3,8 +3,8 @@
 
 Name: 		gnormalize
 Summary:	A ripper, an encoder and an audio converter
-Version:	%{version}
-Release:	%{release}
+Version:	0.63
+Release:	1%{release}
 Group:		Sound
 License:	GPLv2+
 URL:		http://gnormalize.sourceforge.net
