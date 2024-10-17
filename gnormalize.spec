@@ -7,7 +7,7 @@ Version:	0.63
 Release:	1%{release}
 Group:		Sound
 License:	GPLv2+
-URL:		http://gnormalize.sourceforge.net
+URL:		https://gnormalize.sourceforge.net
 Source0:	http://kent.dl.sourceforge.net/sourceforge/gnormalize/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:	noarch
